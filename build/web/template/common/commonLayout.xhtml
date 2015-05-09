@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"   
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      >
+
+    <h:head>
+        <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic' rel='stylesheet' type='text/css'></link>
+        <h:outputStylesheet name="common-style.css" library="css" />
+        <h:outputStylesheet name="reset.css" library="css"   />
+        <h:outputStylesheet name="grid.css" library="css"   />
+        <h:outputStylesheet name="style.css"  library="css" />
+        <h:outputScript name="jquery.js"  library="js"  />
+        <h:outputScript name="jquery-migrate-1.1.1.js" library="js"  />
+        <!--[if lt IE 9]>
+            <script src="js/html5shiv.js"></script>
+            <link rel="stylesheet" href="css/ie.css" type="text/css" media="screen">
+            <link href='http://fonts.googleapis.com/css?family=Lato:300italic' rel='stylesheet' type='text/css'>
+            <link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+            <link href='http://fonts.googleapis.com/css?family=Lato:400' rel='stylesheet' type='text/css'>
+            <link href='http://fonts.googleapis.com/css?family=Lato:700' rel='stylesheet' type='text/css'>
+        <![endif]-->
+    </h:head>
+
+    <h:body>
+
+        <div id="page">
+
+            <div id="header">
+                <ui:insert name="header" >
+                    <ui:include src="/template/common/commonHeader.xhtml" />
+                </ui:insert>
+            </div>
+
+            <div id="content">
+                <ui:insert name="content" >
+                    <ui:include src="/template/common/commonContent.xhtml" />
+                </ui:insert>
+            </div>
+
+            <div id="footer">
+                <ui:insert name="footer" >
+                    <ui:include src="/template/common/commonFooter.xhtml" />
+                </ui:insert>
+            </div>
+
+        </div>
+
+    </h:body>
+
+</html>
