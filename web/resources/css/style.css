@@ -81,7 +81,7 @@ input, textarea {
 /*----- other -----*/
 .img-indent { 
 	margin:0 40px 0 0; 
-	float:left;
+	float:right;
 }
 .extra-wrap { 
 	width:100%;
@@ -92,6 +92,7 @@ h2 {
 	font-weight: 300;
 	font-size: 30px;
 	padding: 10px 0 28px 0;
+        float: right;
 }
 	.h-pad {
 		padding-top: 42px;
@@ -182,7 +183,7 @@ header{
 
 		.button, .button1 {
 			margin-top: 5px;
-			float: right;
+			float: left;
 			display: inline-block;
 			padding: 18px 33px 18px 33px;
 			color: #fff;
